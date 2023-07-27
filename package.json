@@ -1,0 +1,14 @@
+{
+  "name": "InceptionDeckTemplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "html": "marp main.md",
+    "pdf": "marp main.md --pdf",
+    "clean": "rm -f main.html main.pdf"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.1.0"
+  }
+}
